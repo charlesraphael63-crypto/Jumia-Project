@@ -31,8 +31,6 @@
     }
       .imgLogo {
         width: 20px;
-        background: orange;
-        border-radius: 20px;
       }
     .rightLogo {
       width: 50%;
@@ -46,4 +44,61 @@
         margin-left: 15px;
       }
   }
+
+    .imgLg {
+    width: 110px;
+    height: 30px;
+    background: transparent;
+  }
+  .mainHead {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menuHead {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .sideOpt {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+        gap: 5px;
+        justify-content: space-around;
+      }  
+        .searchBar {
+          width: 50%;
+          height: 70%;
+          font-size: large;
+          border-radius: 7px;
+          border: solid black 1px;
+        }
+        .btn1 {
+          width: 10%;
+          height: 70%;
+          font-weight: bold;
+          border: none;
+          border-radius: 7px;
+          background-color: orange;
+        }
+
+        .opction {
+          width: 40%;
+          height: 100%;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          .opt {
+            width: 25px;
+          }
+        }
+    }
+  }
 }
+
