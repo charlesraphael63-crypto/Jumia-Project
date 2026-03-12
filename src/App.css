@@ -47,7 +47,7 @@
 
     .imgLg {
     width: 110px;
-    height: 30px;
+    height: 20px;
     background: transparent;
   }
   .mainHead {
@@ -76,11 +76,12 @@
           height: 70%;
           font-size: large;
           border-radius: 7px;
-          border: solid black 1px;
+          border: solid silver 2px;
         }
         .btn1 {
           width: 10%;
           height: 70%;
+          box-shadow: 5px 5px 15px rgba(0,0,0,0.3) ;
           font-weight: bold;
           border: none;
           border-radius: 7px;
@@ -102,3 +103,94 @@
   }
 }
 
+/* Hero Css */
+.mainHero {
+  background-image: url("https://ng.jumia.is/cms/0-5-TechWeek/2026/Brand-day/12-march-itel/BD_BG_TAKEOVER.jpg");
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  .menuHero {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    .leftHero {
+      width: 20%;
+      height: 90%;
+      border-radius: 5px;
+      background-color: white;
+    }
+    .midHero {
+      width: 60%;
+      height: 90%;
+      border-radius: 5px;
+    }
+    
+    .rightHero {
+      width: 20%;
+      height: 90%;
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color: transparent;
+      .upHero {
+        width: 100%;
+        height: 50%;
+        border-radius: 5px;
+        background-color: white;
+      }
+      .downHero {
+        width: 100%;
+        height: 50%;
+        .join {
+          width: 200px;
+        }
+      }
+    }
+
+  }
+}
+
+.edit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .addSub {
+        width: 100%;
+        height: 100%;
+        background: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+ .tryEdit {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 30px;
+  height: 30px;
+  filter: grayscale(100%);
+}
+
+.anime {
+  width: 650px;
+  height: 413px;
+  border-radius: 5px;
+} 
